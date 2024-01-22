@@ -1,0 +1,177 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.5s, color 0.5s;
+  /* background-image: url(bbsb2.png); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  margin-bottom: 20px;
+  color: #000000; /* White */
+}
+
+.teams-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team {
+  flex: 1;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+.team h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #001F3F; /* Navy Blue */
+}
+
+.score {
+  font-size: 4em;
+  margin-bottom: 10px;
+  font-weight: normal;
+  color:deeppink;
+  background-color: #090000;/* Green */
+  font-family: "LED Dot-Matrix Regular", sans-serif;
+  padding: 0.1em 0.4em; /* Adjust padding to create a square-like appearance */
+  border-radius: 0.3em;  
+}
+
+.points-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.point-button {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #FFEB3B; /* Light Yellow */
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.point-button:hover {
+  background-color: #FBC02D; /* Darker Yellow on hover */
+}
+
+.reset-button {
+  margin-top: 40px;
+  background-color: #1976D2; /* Blue */
+  border: 1px solid #1565C0;
+  border-radius: 40px;
+  cursor: pointer;
+  color: #fff;
+  width: 10%;
+}
+
+.reset-button:hover {
+  background-color: #1565C0; /* Darker Blue on hover */
+}
+
+.dark-mode {
+  background-color:royalblue; /* Dark Blue */
+  color:lightgray /* Light Gray */
+}
+
+.dark-mode-button {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  padding: 15px 15px;
+  cursor: pointer;
+  background-color: #1594c2; /* Dark Blue */
+  color: #fff; /* White */
+  border-radius: 5px;
+}
+
+.dark-mode-button:hover {
+  background-color: #d8af17; /* Darker Blue on hover */
+}
+
+.team-controls {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.update-team-button {
+  padding: 5px 10px;
+  margin-top: 5px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.update-team-button:hover {
+  background-color: #45a049; /* Darker Green on hover */
+}
+
+.timer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 3em;
+  font-family: "LED Dot-Matrix Regular";
+  margin-top: 15px;
+  color: #090000; /* Dark Gray */
+}
+
+.control-button {
+  padding: 10px 20px;
+  font-size: 0.75em;
+  background-color: #4CAF50; /* Green */
+  color: #fff;
+  border-radius: 15px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.5em;
+}
+
+.buzz {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.0em;
+  padding: 10px 20px;
+  margin-top: 20px;
+  /* background-color: #00FFFF; */
+  
+}
+
+
+
+.update-team-button {
+  padding: 10px 20px;
+  font-size: 1.0em;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #010000;
+  margin-top: 10px;
+  margin-top: 50px;
+}
+#home-team-input,#guest-team-input
+{
+  color: #000000;
+}
+.team-controls input {
+  font-size: 1.5em;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}

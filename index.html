@@ -1,0 +1,167 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball score board</title>
+    <style>
+        body {
+            padding: 25px;
+            background-color: white;
+            color: black;
+            font-size: 25px;
+        }
+
+        .dark-mode {
+            background-color: black;
+            color: white;
+        }
+
+        h3 {
+            text-align: center;
+            margin-bottom: 0px;
+        }
+
+        #mode {
+            font-size: 40px;
+            /* vertical-align: middle; */
+            /* line-height: 10; */
+            background-color: black;
+            height: 70px;
+            width: 70px;
+        }
+
+        body {
+
+            background-image: url(bbsb2.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .team {
+            display: inline-block;
+            /* Display the teams in the same line */
+            /* margin: 270px; */
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 5px;
+            border-radius: 4px;
+            margin-bottom: 0px;
+        }
+
+        button {
+            margin-bottom: 40px;
+            color: #9AABD8;
+            border: 1px solid #9AABD8;
+            border-radius: 4px;
+            background: transparent;
+            margin-left: 5px;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="myFunction() " id="mode">&#127769</button>
+    <h3>BASKETBALL SCOREBOARD </h3>
+    <p>cds</p>
+
+    <div class="team">
+        <h2>HOME </h2>
+        <span id="team1Score">0</span>
+    </div>
+
+    <div class="team">
+        <h2>GUEST </h2>
+        <span id="team2Score">0</span>
+    </div>
+    <p>dnjdendlj</p>
+
+    <div class="btn">
+        <button class="button" onclick="home1Plus()">+1</button>
+        <button class="button" onclick="home2Plus()">+2</button>
+        <button class="button" onclick="home3Plus()">+3</button>
+    </div> -->
+
+    <!-- <div class="container">
+        <img src="bbk.jpg" alt="Snow" style="width:100%;">
+        <div class="bottom-left">Bottom Left</div>
+        <div class="top-left">Top Left</div>
+        <div class="top-right">Top Right</div>
+        <div class="bottom-right">Bottom Right</div>
+        <div class="centered">Centered</div>
+      </div> -->
+    <!-- <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Basketball Scoreboard</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <h1>BASKETBALL SCOREBOARD</h1>
+ <button class="dark-mode-button" onclick="toggleDarkMode()">🌙</button>
+ <div class="teams-container">
+  <div class="team home">
+   <h1 id="home-team-name">HOME</h1>
+    <span class="score">0</span>
+   <!-- <span class="score blink">0</span> -->
+   <div class="points-buttons">
+    <button class="point-button" data-value="1"> +1 </button>
+    <button class="point-button" data-value="2"> +2 </button>
+    <button class="point-button" data-value="3"> +3 </button>
+    <button class="reset-button" onclick="resetPoints('home')">Reset</button>
+   </div>
+   <div class="team-controls">
+    <input type="text" id="home-team-input" placeholder="Enter New Name">
+    <button class="update-team-button" onclick="updateTeamName('home')">Update Team Name</button>
+   </div>
+  </div>
+  <div class="team guest">
+   <h1 id="guest-team-name">GUEST</h1>
+   <span class="score">0</span>
+   <div class="points-buttons">
+    <button class="point-button" data-value="1"> +1 </button>
+    <button class="point-button" data-value="2"> +2 </button>
+    <button class="point-button" data-value="3"> +3 </button>
+    <button class="reset-button" onclick="resetPoints('guest')">Reset</button>
+   </div>
+   <div class="team-controls">
+    <input type="text" id="guest-team-input" placeholder="Enter New Name">
+    <button class="update-team-button" onclick="updateTeamName('guest')">Update Team Name</button>
+   </div>
+  </div>
+ </div>
+ <div class="timer">
+   <h3>TIMER</h3>
+   <span class="time">12:00</span>
+ </div>
+ <div class="controls">
+   <button class="control-button" id="start">START</button>
+   <button class="control-button" id="stop">STOP</button>
+   <button class="control-button" id="pause">PAUSE</button>
+   <button class="control-button" id="reset">RESET</button>
+ </div>
+ <br>
+
+    <div class="buzz">
+        <button class="buzz" style="background-color: aqua;" onclick="playBuzzer()">BUZZER</button>
+    </div>
+    
+
+
+ <script src="script.js"></script>
+</body>
+</html>
