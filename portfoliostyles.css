@@ -1,0 +1,93 @@
+/* Basic styling for the portfolio */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Set background color */
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+    margin-left: 50px;
+  }
+  
+  section {
+    margin-bottom: 40px; /* Increase spacing between sections */
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Hero Section Styles */
+  #hero {
+    background-image: url(''); /* Add your hero image */
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Adjust the height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 3em; /* Adjust font size */
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2em; /* Adjust font size */
+  }
+  
+  /* Skills and Expertise Icons */
+  .icon-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .icon-list li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2em; /* Adjust font size */
+  }
+  
+  .icon-list li i {
+    margin-right: 10px;
+  }
+  
+  /* Hover Effect */
+  .icon-list li a:hover {
+    color: #ff6600; /* Change color on hover */
+  }
+  
+
+  
