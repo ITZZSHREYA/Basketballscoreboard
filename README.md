@@ -1,2 +1,0 @@
-# Basketballscoreboard
-Code
